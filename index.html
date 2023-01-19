@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/550/550607.png" type="image/icon type">
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <input type="text" class="display" disabled/>
+
+        <div class="column">
+          <button type="button" class="btn-clear">AC</button>
+          <button type="button" class="btn-operator btn-percent" data-num="%">%</button>
+          <button type="button" class="btn btn-operator" data-num="/">&divide;</button>
+
+          <button type="button" class="btn btn-num" data-num="7">7</button>
+          <button type="button" class="btn btn-num" data-num="8">8</button>
+          <button type="button" class="btn btn-num" data-num="9">9</button>
+          <button type="button" class="btn btn-operator" data-num="*">&times;</button>
+
+          <button type="button" class="btn btn-num" data-num="4">4</button>
+          <button type="button" class="btn btn-num" data-num="5">5</button>
+          <button type="button" class="btn btn-num" data-num="6">6</button>
+          <button type="button" class="btn btn-operator" data-num="+">+</button>
+
+          <button type="button" class="btn btn-num" data-num="1">1</button>
+          <button type="button" class="btn btn-num" data-num="2">2</button>
+          <button type="button" class="btn btn-num" data-num="3">3</button>
+          <button type="button" class="btn btn-operator" data-num="-">-</button>
+
+          <button type="button" class="btn btn-comma" data-num=".">.</button>
+          <button type="button" class="btn btn-num" data-num="0">0</button>
+          <button type="button" class="btn-equal">=</button>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
